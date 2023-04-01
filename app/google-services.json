@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "621195958496",
+    "project_id": "ev-chargedup",
+    "storage_bucket": "ev-chargedup.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:621195958496:android:23569988e6579377ce1885",
+        "android_client_info": {
+          "package_name": "com.shashank.platform.schoolcollegeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "621195958496-5embbms54269j2id8k6lad7j2k61cfb9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoF-Pc6aRVtj9rufziQ_mzU_7T9_W6T84"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "621195958496-5embbms54269j2id8k6lad7j2k61cfb9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

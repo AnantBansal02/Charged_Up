@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DF18868A"
+    tools:context=".PaymentActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView8"
+        android:layout_width="314dp"
+        android:layout_height="69dp"
+        app:cardBackgroundColor="#F1EDED"
+        app:cardCornerRadius="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.172">
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#18868A"
+            android:text="In Order to Book your Slot Pay the Amount"
+            android:textAlignment="center"
+            android:textColor="#101010"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/textView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.069"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2"
+            app:layout_constraintVertical_bias="0.0" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView7"
+        android:layout_width="315dp"
+        android:layout_height="237dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView8"
+        app:layout_constraintVertical_bias="0.38">
+
+        <EditText
+            android:id="@+id/totaltext"
+            android:layout_width="268dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/calibri"
+            android:hint="Amount"
+            android:text="19"
+            android:inputType="text"
+            android:textColor="#000000"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/idBtnPay"
+        android:layout_width="112dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="#000000"
+        android:text="PayNow"
+        android:textColor="#EFEFEF"
+        android:textColorLink="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/cardView7"
+        app:layout_constraintEnd_toEndOf="@+id/cardView7"
+        app:layout_constraintStart_toStartOf="@+id/cardView7"
+        app:layout_constraintTop_toTopOf="@+id/cardView7" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".MapsActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout"
+        android:padding="10dp"
+        android:backgroundTint="#57BA2B"
+        >
+
+    <ImageButton
+        android:id="@+id/logout"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:padding="30dp"
+        android:src="@drawable/ic_baseline_logout_24"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="end"
+    android:gravity="end"
+    android:orientation="horizontal"
+
+    >
+        <ImageButton
+            android:id="@+id/toggle"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:padding="30dp"
+            android:layout_gravity="end"
+            android:foregroundGravity="right"
+            android:src="@drawable/ic_baseline_electrical_services_24"
+            android:backgroundTint="#57BA2B"/>
+</LinearLayout>
+    </LinearLayout>
+
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:layout_below="@id/linearLayout"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    />
+</RelativeLayout>

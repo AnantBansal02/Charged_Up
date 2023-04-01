@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#57BA2B"
+    android:orientation="vertical"
+    tools:context=".Main2Activity">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#18868A">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="357dp"
+                android:layout_height="662dp"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="#18868A">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/cardView28"
+                    android:layout_width="317dp"
+                    android:layout_height="57dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="350dp"
+                    android:background="#FFFFFF"
+                    app:cardCornerRadius="8dp">
+
+                    <EditText
+                        android:id="@+id/password"
+                        android:layout_width="291dp"
+                        android:layout_height="57dp"
+                        android:fontFamily="@font/calibri"
+                        android:hint="Password"
+                        android:inputType="textPassword"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/cardView18"
+                    android:layout_width="317dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="200dp"
+                    android:background="#FEFEFE"
+                    app:cardBackgroundColor="#FFFFFF"
+                    app:cardCornerRadius="8dp">
+
+                    <EditText
+                        android:id="@+id/name"
+                        android:layout_width="286dp"
+                        android:layout_height="60dp"
+                        android:fontFamily="@font/calibri"
+                        android:hint="Name"
+                        android:inputType="text"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/cardView19"
+                    android:layout_width="317dp"
+                    android:layout_height="61dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="275dp"
+                    android:background="#FDFDFD"
+                    app:cardCornerRadius="8dp">
+
+                    <EditText
+                        android:id="@+id/email"
+                        android:layout_width="289dp"
+                        android:layout_height="61dp"
+                        android:fontFamily="@font/calibri"
+                        android:hint="Email"
+                        android:inputType="textEmailAddress"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.551"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.0" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <Button
+                    android:id="@+id/Sign_up"
+                    android:layout_width="200dp"
+                    android:layout_height="73dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="180dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="@drawable/buttonshape"
+                    android:fontFamily="@font/gotham"
+                    android:text="Sign up"
+                    android:textAllCaps="false"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/cardView29"
+                    android:layout_width="317dp"
+                    android:layout_height="121dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:background="#6362FF00"
+                    app:cardBackgroundColor="#6362FF00"
+                    app:cardCornerRadius="20dp">
+
+                    <TextView
+                        android:id="@+id/back"
+                        android:layout_width="262dp"
+                        android:layout_height="58dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="24dp"
+                        android:layout_marginEnd="17dp"
+                        android:layout_marginBottom="31dp"
+                        android:fontFamily="@font/gotham"
+                        android:gravity="center"
+                        android:shadowColor="#57F4EFEF"
+                        android:text="@string/register_text"
+                        android:textAlignment="center"
+                        android:textColor="#FDFDFD"
+                        android:textSize="28sp"
+                        android:textStyle="bold"
+                        app:drawableLeftCompat="@drawable/ic_keyboard_arrow_left_black_24dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="1.0" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>

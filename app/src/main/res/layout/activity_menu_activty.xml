@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MenuActivty">
+
+    <LinearLayout
+        android:id="@+id/color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="#57BA2B"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            android:backgroundTint="#57BA2B"
+            android:src="@drawable/ic_keyboard_arrow_left_black_24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="29dp"
+            android:text="Nearby EV Stations"
+            android:textColor="#070000"
+
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#47C006"
+        android:backgroundTint="#081701">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="20"
+                        android:minHeight="100dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_baseline_electric_car_24" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="80"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txt1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="6dp"
+                            android:text="Charge And Drive Charging Station"
+                            android:textColor="#171313"
+                            android:textColorHighlight="#121010"
+                            android:textColorHint="#121010"
+                            android:textColorLink="#100E0E"
+                            android:textSize="24dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="6dp"
+                            android:text="701, Sarkhej - Gandhinagar Hwy, Makarba, Ahmedabad, Gujarat 380051"
+                            android:textColor="#121111" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="20"
+                        android:minHeight="100dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_baseline_electric_car_24" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="80"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txt2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="6dp"
+                            android:text="Griden Power - EV Charger"
+                            android:textColor="#171313"
+                            android:textColorHighlight="#121010"
+                            android:textColorHint="#121010"
+                            android:textColorLink="#100E0E"
+                            android:textSize="24dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="6dp"
+                            android:text="1109, 11th floor, Satyamev Elite, Ambli-Bopal Vakil Saheb Bridge, Bopal, Ahmedabad, Gujarat 380058"
+                            android:textColor="#121111" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="20"
+                        android:minHeight="100dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_baseline_electric_car_24" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="80"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txxt3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="6dp"
+                            android:text="Capital EV Charging Station"
+                            android:textColor="#171313"
+                            android:textColorHighlight="#121010"
+                            android:textColorHint="#121010"
+                            android:textColorLink="#100E0E"
+                            android:textSize="24dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="6dp"
+                            android:text="Ram Nagar, Sabarmati, Ahmedabad, Gujarat 380005"
+                            android:textColor="#121111" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="20"
+                        android:minHeight="100dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_baseline_electric_car_24" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="80"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txt4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="6dp"
+                            android:text="GOEV"
+                            android:textColor="#171313"
+                            android:textColorHighlight="#121010"
+                            android:textColorHint="#121010"
+                            android:textColorLink="#100E0E"
+                            android:textSize="24dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="6dp"
+                            android:text="B 902, Ganesh Glory, 11, Jagatpur Road, off Sarkhej - Gandhinagar Highway, Ahmedabad, Gujarat 382470"
+                            android:textColor="#121111" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="20"
+                        android:minHeight="100dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_baseline_electric_car_24" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="80"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txt5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="6dp"
+                            android:text="CHARGE+ZONE Charging Station"
+                            android:textColor="#171313"
+                            android:textColorHighlight="#121010"
+                            android:textColorHint="#121010"
+                            android:textColorLink="#100E0E"
+                            android:textSize="24dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="6dp"
+                            android:text="Bodakdev, Ahmedabad, Gujarat 380054"
+                            android:textColor="#121111" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="20"
+                        android:minHeight="100dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_baseline_electric_car_24" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="80"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="6dp"
+                            android:text="Electric Vehicle Charging Station"
+                            android:textColor="#171313"
+                            android:textColorHighlight="#121010"
+                            android:textColorHint="#121010"
+                            android:textColorLink="#100E0E"
+                            android:textSize="24dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="6dp"
+                            android:text="100 Feet Anand Nagar Rd, Jodhpur Village, Ahmedabad, Gujarat 380015"
+                            android:textColor="#121111" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="20"
+                        android:minHeight="100dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_baseline_electric_car_24" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="80"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="6dp"
+                            android:text="Indian Oil Petroleum EV station"
+                            android:textColor="#171313"
+                            android:textColorHighlight="#121010"
+                            android:textColorHint="#121010"
+                            android:textColorLink="#100E0E"
+                            android:textSize="24dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="6dp"
+                            android:text="IndianOil Petroleum Judges Bangla, Satya Marg, Bodakdev, Ahmedabad, Gujarat 380054"
+                            android:textColor="#121111" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="20"
+                        android:minHeight="100dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_baseline_electric_car_24" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="80"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="6dp"
+                            android:text="Laxmi Narayan Society EV Station"
+                            android:textColor="#171313"
+                            android:textColorHighlight="#121010"
+                            android:textColorHint="#121010"
+                            android:textColorLink="#100E0E"
+                            android:textSize="24dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="6dp"
+                            android:text="XJPG+FQX, NE1, Laxmi Narayan Society, Jashoda Nagar, Ahmedabad, Gujarat 380026"
+                            android:textColor="#121111" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="20"
+                        android:minHeight="100dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_baseline_electric_car_24" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="80"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="6dp"
+                            android:text="MobiLane Charging Station"
+                            android:textColor="#171313"
+                            android:textColorHighlight="#121010"
+                            android:textColorHint="#121010"
+                            android:textColorLink="#100E0E"
+                            android:textSize="24dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="6dp"
+                            android:text="beside Fire Station, Gujarat International Finance Tec-City, Gandhinagar, Gujarat 382355"
+                            android:textColor="#121111" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="20"
+                        android:minHeight="100dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_baseline_electric_car_24" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="80"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="6dp"
+                            android:text="Petroleum House EV Charging Station"
+                            android:textColor="#171313"
+                            android:textColorHighlight="#121010"
+                            android:textColorHint="#121010"
+                            android:textColorLink="#100E0E"
+                            android:textSize="24dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="6dp"
+                            android:text="PB No.4032,Petroleum House,Behind Memnagar Fire Station, Navrangpura, Ahmedabad, Gujarat"
+                            android:textColor="#121111" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
